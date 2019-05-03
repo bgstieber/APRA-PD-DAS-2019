@@ -20,7 +20,11 @@ The title of Brad's talk is __Generating Insights from Clustering Large Donors__
 
 __Learning Objective #1__:  Attendees will learn the principles for implementing and interpreting some popular unsupervised learning techniques.
 
+How: discuss three popular algorithms, data considerations, possible interpretations, and one real-world example
+
 __Learning Objective #2__:  Attendees will learn about the increasing influence of large donors on philanthropy, enforcing the importance of exploring data for this group.
+
+How: Requires comparing pareto numbers over time (look at campaign contributions and WFAA donors?)
 
 __Important Dates__:
 
