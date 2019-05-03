@@ -26,3 +26,20 @@ __Important Dates__:
 - Wednesday, July 31 - Saturday, August 3: Prospect Development 2019 in Phoenix, AZ
 
 
+## Presentation Outline
+
+The talk is scheduled for 60 minutes, which means we should present for about 45-50 minutes, and leave 10-15 minutes for questions. This works out to about 20-30 slides of content.
+
+ - Background and Context
+ - What is Unsupervised Learning
+ - Three Clustering Algorithms You Should Know
+     + kmeans
+     + hierarchical clustering
+     + DBSCAN
+ - An Example from WFAA
+     + 5ish slides on Large Donor Clustering
+     + Important to describe how it was done (what was the data?), what the results were, how to generate insights (asking better questions) and next steps
+ - Bonus: Large Donor Disruption in Philanthropy
+ - Wrapping Up
+
+
