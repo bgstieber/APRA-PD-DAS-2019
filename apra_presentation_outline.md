@@ -31,15 +31,27 @@ __Important Dates__:
 The talk is scheduled for 60 minutes, which means we should present for about 45-50 minutes, and leave 10-15 minutes for questions. This works out to about 20-30 slides of content.
 
  - Background and Context
+     + Who am I, what do I do, where do I work
+         * Always important to provide context about "size of shop"
+     + Large donors have always been important, but economic trends show that as wealth continues to concentrate, it's more important now than ever to learn as much as we can about this group.
  - What is Unsupervised Learning
  - Three Clustering Algorithms You Should Know
      + kmeans
      + hierarchical clustering
      + DBSCAN
+         * https://medium.com/netflix-techblog/tracking-down-the-villains-outlier-detection-at-netflix-40360b31732
  - An Example from WFAA
      + 5ish slides on Large Donor Clustering
      + Important to describe how it was done (what was the data?), what the results were, how to generate insights (asking better questions) and next steps
  - Bonus: Large Donor Disruption in Philanthropy
+     + "Get real" about growing inequalities and how this affects philanthropy
+     + reference the Wealth_X_World_Ultra_Wealth_Report_2018_FINAL.pdf report
+     + Pareto (80/20) principle in philanthropy
+         * WFAA example
+         * Political giving
+             - 2015-2016 for HRC, Donald Trump, and Bernie Sanders
+             - https://www.fec.gov/data/browse-data/?tab=bulk-data
+         * 
  - Wrapping Up
 
 
