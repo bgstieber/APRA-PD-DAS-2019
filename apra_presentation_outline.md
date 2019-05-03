@@ -18,6 +18,10 @@ The title of Brad's talk is __Generating Insights from Clustering Large Donors__
 
 > Additionally, the presenter will comment on some of the larger trends in fundraising. These trends include the increasing concentration of giving, the continued deviation from the 80/20 Pareto principle, and the potential disruption in philanthropy caused by the ultra-wealthy.
 
+__Learning Objective #1__:  Attendees will learn the principles for implementing and interpreting some popular unsupervised learning techniques.
+
+__Learning Objective #2__:  Attendees will learn about the increasing influence of large donors on philanthropy, enforcing the importance of exploring data for this group.
+
 __Important Dates__:
 
 - __MONDAY MAY 20__: Email draft PowerPoint to speaker liaison (assigned in March) & schedule call to discuss
@@ -37,12 +41,13 @@ The talk is scheduled for 60 minutes, which means we should present for about 45
  - What is Unsupervised Learning
  - Three Clustering Algorithms You Should Know
      + kmeans
+         * Remember to scale your data!
      + hierarchical clustering
      + DBSCAN
          * https://medium.com/netflix-techblog/tracking-down-the-villains-outlier-detection-at-netflix-40360b31732
  - An Example from WFAA
      + 5ish slides on Large Donor Clustering
-     + Important to describe how it was done (what was the data?), what the results were, how to generate insights (asking better questions) and next steps
+     + Important to describe how it was done (what was the data?), what the results were, how to generate insights (asking better questions and paragraph summaries) and next steps
  - Bonus: Large Donor Disruption in Philanthropy
      + "Get real" about growing inequalities and how this affects philanthropy
      + reference the Wealth_X_World_Ultra_Wealth_Report_2018_FINAL.pdf report
