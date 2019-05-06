@@ -48,6 +48,10 @@ The talk is scheduled for 60 minutes, which means we should present for about 45
      + kmeans
          * Remember to scale your data!
      + hierarchical clustering
+         * Agglomerative vs. divisive
+         * great for exploratory, and when your data might have latent hierarchies (maybe educational breakdown?)
+         * https://uc-r.github.io/hc_clustering
+         * https://www.datacamp.com/community/tutorials/hierarchical-clustering-R
      + DBSCAN
          * https://medium.com/netflix-techblog/tracking-down-the-villains-outlier-detection-at-netflix-40360b31732
  - Using results from clustering
