@@ -43,7 +43,9 @@ The talk is scheduled for 60 minutes, which means we should present for about 45
          * Always important to provide context about "size of shop"
      + Large donors have always been important, but economic trends show that as wealth continues to concentrate, it's more important now than ever to learn as much as we can about this group.
  - What is Unsupervised Learning
+     + Really helpful for exploratory analysis
      + Important to know your goals when doing an analysis. It seems like we get asked for a lot of "predictions", when we're not actually trying to predict anything at all/don't have something to predict.
+         * Need both X and y to build a model
  - Three Clustering Algorithms You Should Know
      + kmeans
          * Remember to scale your data!
@@ -54,6 +56,7 @@ The talk is scheduled for 60 minutes, which means we should present for about 45
          * https://www.datacamp.com/community/tutorials/hierarchical-clustering-R
      + DBSCAN
          * https://medium.com/netflix-techblog/tracking-down-the-villains-outlier-detection-at-netflix-40360b31732
+         * http://www.sthda.com/english/wiki/wiki.php?id_contents=7940
  - Using results from clustering
      + Relies on interpretation, and depends on your goals
  - An Example from WFAA
