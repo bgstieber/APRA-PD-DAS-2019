@@ -27,7 +27,7 @@ dd <- tibble(
               'Clustering', 'WFAA Example', 'Large\nDonor\nDisruption',
               'Wrapping Up'),
   time = c(1, 2, 3, 4, 5, 6),
-  level = c(1, 4, 3.5, 2.5, 1.75, 1)
+  level = c(1, 2.25, 3.5, 2.5, 1.75, 1)
 )
 
 
