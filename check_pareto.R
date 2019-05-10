@@ -33,7 +33,7 @@ GROUP BY IIF(hh_sub.CalendarYear >= 2016,
          hh_sub.Household_SK
 ")
 
-eighty_and_ninety <- hh_recog%>%
+eighty_and_ninety <- hh_recog %>%
 	arrange(desc(SumRecognition)) %>%
 	group_by(CalendarYearGroup) %>%
 	mutate(cumu_perc_recog = cumsum(SumRecognition) / sum(SumRecognition),
@@ -53,3 +53,5 @@ eighty_and_ninety <- hh_recog%>%
 		    cumu_perc_obs, 
 		    fill = factor(round(cumu_perc_recog, 1))))+
 	geom_col(colour = 'black', position = 'dodge') 
+ 
+ 

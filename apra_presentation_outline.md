@@ -70,7 +70,8 @@ The talk is scheduled for 60 minutes, which means we should present for about 45
          * Political giving
              - 2015-2016 for HRC, Donald Trump, and Bernie Sanders
              - https://www.fec.gov/data/browse-data/?tab=bulk-data
-         * 
+         * Use IRS charitable contribution data?
+             - YoY?
  - Wrapping Up
 
 
