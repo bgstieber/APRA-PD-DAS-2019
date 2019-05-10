@@ -30,14 +30,14 @@ dd <- tibble(
               'WFAA Example',
               'Wrapping Up'),
   time = c(1, 
-           2, 
+           1.8, 
            3, 
            4, 
            5, 
            6),
   
   level = c(1, 
-            1.75,
+            1.5,
             2.25, 
             3.5, 
             2.5,
@@ -47,8 +47,9 @@ dd <- tibble(
 
 p1 <- dd %>%
   ggplot(aes(time, level, label = section))+
-  geom_label(family = 'Segoe UI', size = 7,
-             fill = 'dodgerblue3',alpha = 0.3)+
+  geom_label(family = 'Segoe UI', size = 8,
+             fill = 'dodgerblue3',alpha = 0.3,
+             label.padding = unit(0.1, "lines"))+
   scale_y_continuous(limits = c(0,4.5), breaks = c(0.5, 2.5, 4), 
                      labels = c('low', 'medium', 'high'),
                      name = 'Techinical Level')+
@@ -56,9 +57,9 @@ p1 <- dd %>%
                      breaks = c(0.5, 3.5, 6.5),
                      labels = c('Beginning', 'Middle', 'End'),
                      name = 'Presentation Order')+
-  theme(axis.text = element_text(size = 15),
-        axis.title = element_text(size = 18),
-        plot.title = element_text(size = 22))+
+  theme(axis.text = element_text(size = 22),
+        axis.title = element_text(size = 26),
+        plot.title = element_text(size = 28))+
   ggtitle('A Visualization of this Presentation')
 
 
