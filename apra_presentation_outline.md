@@ -42,7 +42,17 @@ The talk is scheduled for 60 minutes, which means we should present for about 45
      + Who am I, what do I do, where do I work
          * Always important to provide context about "size of shop"
      + Large donors have always been important, but economic trends show that as wealth continues to concentrate, it's more important now than ever to learn as much as we can about this group.
- - What is Unsupervised Learning
+  - Large Donor Disruption in Philanthropy
+     + "Get real" about growing inequalities and how this affects philanthropy
+     + reference the Wealth_X_World_Ultra_Wealth_Report_2018_FINAL.pdf report
+     + Pareto (80/20) principle in philanthropy
+         * WFAA example
+         * Political giving
+             - 2015-2016 for HRC, Donald Trump, and Bernie Sanders
+             - https://www.fec.gov/data/browse-data/?tab=bulk-data
+         * Use IRS charitable contribution data?
+             - YoY?
+- What is Unsupervised Learning
      + Really helpful for exploratory analysis
      + Important to know your goals when doing an analysis. It seems like we get asked for a lot of "predictions", when we're not actually trying to predict anything at all/don't have something to predict.
          * Need both X and y to build a model
@@ -62,16 +72,7 @@ The talk is scheduled for 60 minutes, which means we should present for about 45
  - An Example from WFAA
      + 5ish slides on Large Donor Clustering
      + Important to describe how it was done (what was the data?), what the results were, how to generate insights (asking better questions and paragraph summaries) and next steps
- - Bonus: Large Donor Disruption in Philanthropy
-     + "Get real" about growing inequalities and how this affects philanthropy
-     + reference the Wealth_X_World_Ultra_Wealth_Report_2018_FINAL.pdf report
-     + Pareto (80/20) principle in philanthropy
-         * WFAA example
-         * Political giving
-             - 2015-2016 for HRC, Donald Trump, and Bernie Sanders
-             - https://www.fec.gov/data/browse-data/?tab=bulk-data
-         * Use IRS charitable contribution data?
-             - YoY?
+
  - Wrapping Up
 
 
