@@ -52,6 +52,6 @@ eighty_and_ninety <- hh_recog %>%
 		aes(CalendarYearGroup, 
 		    cumu_perc_obs, 
 		    fill = factor(round(cumu_perc_recog, 1))))+
-	geom_col(colour = 'black', position = 'dodge') 
- 
+	geom_col(colour = 'black', position = 'dodge')+
+  scale_y_continuous(labels = percent)
  
