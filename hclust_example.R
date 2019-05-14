@@ -40,3 +40,5 @@ fviz_cluster(list(data = whole_sale_scale,
 fviz_nbclust(whole_sale_scale,
              FUN = hcut,
              method = 'wss')
+
+
