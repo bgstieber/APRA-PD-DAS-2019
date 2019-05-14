@@ -99,7 +99,7 @@ irs_data2 <- irs_data %>%
          cumu_perc_obs = row_number() / n())
 
 
-irs_data2 %>%
+p1 <- irs_data2 %>%
   slice(which.min(abs(cumu_perc_contrib - 0.8))) %>%
   ggplot(aes(IRS_Year, cumu_perc_obs))+
   geom_col(colour = 'black', fill = '#c5050c')+
