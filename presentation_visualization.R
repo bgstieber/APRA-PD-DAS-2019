@@ -47,7 +47,7 @@ dd <- tibble(
 
 p1 <- dd %>%
   ggplot(aes(time, level, label = section))+
-  geom_label(family = 'Segoe UI', size = 8,
+  geom_label(family = 'Segoe UI', size = 9,
              fill = 'dodgerblue3',alpha = 0.3,
              label.padding = unit(0.15, "lines"))+
   scale_y_continuous(limits = c(0,4.5), breaks = c(0.5, 2.5, 4), 
