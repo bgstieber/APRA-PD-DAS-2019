@@ -90,7 +90,7 @@ whole_sale_scale2_clust_summary <- whole_sale_scale2 %>%
 
 p2 <- whole_sale_scale2_clust_summary %>%
   ggplot(aes(clust, reorder(variable, value, sd), fill = value))+
-  geom_tile(colour = 'black')+
+  geom_tile(colour = 'black', size = 1.2)+
   scale_fill_gradient2(low = '#0571b0', high = '#ca0020',
                        breaks = -1:1,
                        labels = c('Below', 'Average', 'Above'),
@@ -101,11 +101,10 @@ p2 <- whole_sale_scale2_clust_summary %>%
   ylab("")+
   ggtitle("Cluster Summary by Wholesale Product Categories")+
   theme(plot.title = element_text(size = 25),
-        plot.subtitle = element_text(size = 22),
-        axis.text = element_text(size = 16),
-        legend.text = element_text(size = 16),
-        legend.title = element_text(size = 20),
-        axis.title = element_text(size = 20))
+        axis.text = element_text(size = 22),
+        legend.text = element_text(size = 22),
+        legend.title = element_text(size = 24),
+        axis.title = element_text(size = 24))
 
 
 ggsave("whole_sale_summary.png", p2, width = 11.69, height = 12,
