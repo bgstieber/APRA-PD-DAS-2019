@@ -63,6 +63,50 @@ p1 <- dd %>%
   ggtitle('A Visualization of this Presentation')
 
 
+p_list <- c('Background', 
+            'Large\nDonor\nDisruption',
+            'Unsupervised\nLearning',
+            'Clustering', 
+            'WFAA Example',
+            'Wrapping Up') %>%
+  map(~  dd %>%
+        ggplot(aes(time, level, label = section, fill = section == .x))+
+        geom_label(family = 'Segoe UI', size = 9,alpha = 0.3,
+                   label.padding = unit(0.15, "lines"))+
+        scale_y_continuous(limits = c(0,4.5), breaks = c(0.5, 2.5, 4), 
+                           labels = c('low', 'medium', 'high'),
+                           name = 'Techinical Level')+
+        scale_x_continuous(limits = c(0, 7),
+                           breaks = c(0.5, 3.5, 6.5),
+                           labels = c('Beginning', 'Middle', 'End'),
+                           name = 'Presentation Order')+
+        theme(axis.text = element_text(size = 22),
+              axis.title = element_text(size = 26),
+              plot.title = element_text(size = 28),
+              legend.position = 'none')+
+        ggtitle('A Visualization of this Presentation')+
+        scale_fill_manual(values = c("TRUE" = "dodgerblue3", "FALSE" = "grey90")))
+
+sections <-  c('Background', 
+               'Large\nDonor\nDisruption',
+               'Unsupervised\nLearning',
+               'Clustering', 
+               'WFAA Example',
+               'Wrapping Up')
+
+sections <- gsub(pattern = ".", 
+                 replacement = "_", 
+                 x = make.names(sections),
+                 fixed = TRUE)
+
+mapply(x = sections, 
+       y = p_list, 
+       FUN = function(x,y) ggsave(paste0('pres_', x, '.png'), 
+                                  plot = y, units = 'in',
+                                  width = 2.5 * 4.6, 
+                                  height = 2.5 * 3.9, 
+                                  dpi = 800))
+
 ggsave("presentation_vis.png", plot = p1, units = 'in',
        width = 2.5 * 4.6, height = 2.5 * 3.9, dpi = 800)
 
