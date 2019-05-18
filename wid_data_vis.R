@@ -1,6 +1,7 @@
 library(tidyverse)
 library(scales)
 library(extrafont)
+library(directlabels)
 loadfonts()
 
 theme_bgs <- function(){
@@ -35,13 +36,13 @@ p1 <- ineq_data %>%
   gather(variable, value, Wealth, Income) %>%
   ggplot(aes(year, value, colour = variable))+
   geom_line(size = 1.2)+
-  geom_point()+
+  geom_point(show.legend = FALSE)+
   scale_y_continuous("Share of Total (%)",
                      labels = percent)+
   scale_x_continuous(breaks = seq(0, 3000, 15),
                      name = "Year")+
   scale_colour_brewer(palette = 'Set1',
-                      name = "Data Point")+
+                      name = "")+
   ggtitle("Rising Inequality Since 1980\nShare of Income and Wealth for Top 10% in USA")+
   labs(caption = cite_caption)+
   theme(plot.title = element_text(size = 25),
@@ -49,4 +50,19 @@ p1 <- ineq_data %>%
         legend.text = element_text(size = 22),
         legend.title = element_text(size = 24),
         axis.title = element_text(size = 24),
-        plot.caption = element_text(size = 16))
+        plot.caption = element_text(size = 16),
+        legend.position = 'none')+
+  guides(colour = guide_legend(override.aes = list(size = 3)))
+
+
+p2 <- p1 +
+  geom_dl(aes(label = variable), 
+          method = list("smart.grid", fontfamily = "Segoe UI", cex = 2))
+
+
+ggsave(filename = "inequality_data_vis.png", 
+       plot = p2, 
+       width = 12,
+       height = 8,
+       units = "in",
+       dpi = 700)
