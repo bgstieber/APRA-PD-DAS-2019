@@ -52,6 +52,7 @@ The talk is scheduled for 60 minutes, which means we should present for about 45
              - https://www.fec.gov/data/browse-data/?tab=bulk-data
          * Use IRS charitable contribution data?
              - YoY?
+ - __Add "spoiler" slide about what we did at WFAA, give away _some_ of the results at the beginning. Possible visual: spreadsheet arrow to four circles with clusters, how might be used__
 - What is Unsupervised Learning
      + Really helpful for exploratory analysis
      + Important to know your goals when doing an analysis. It seems like we get asked for a lot of "predictions", when we're not actually trying to predict anything at all/don't have something to predict.
@@ -71,7 +72,9 @@ The talk is scheduled for 60 minutes, which means we should present for about 45
      + Relies on interpretation, and depends on your goals
  - An Example from WFAA
      + 5ish slides on Large Donor Clustering
+     + Distributions: this shows what the clusters were actually doing 
      + Important to describe how it was done (what was the data?), what the results were, how to generate insights (asking better questions and paragraph summaries) and next steps
+     + Implementation: visual of a "future portfolio review"
 
  - Wrapping Up
 
