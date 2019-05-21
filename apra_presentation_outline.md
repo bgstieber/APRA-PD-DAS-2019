@@ -28,8 +28,8 @@ How: Requires comparing pareto numbers over time (look at campaign contributions
 
 __Important Dates__:
 
-- __MONDAY MAY 20__: Email draft PowerPoint to speaker liaison (assigned in March) & schedule call to discuss
-- Monday, June 24: All session presentations, handouts, and AV requests due 
+- ~~Monday, May 20: Email draft PowerPoint to speaker liaison (assigned in March) & schedule call to discuss~~
+- __Monday, June 24: All session presentations, handouts, and AV requests due__
 - Thursday, July 11: Speaker Orientation Webinar
 - Wednesday, July 31 - Saturday, August 3: Prospect Development 2019 in Phoenix, AZ
 
