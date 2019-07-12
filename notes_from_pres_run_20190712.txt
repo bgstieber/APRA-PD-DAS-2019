@@ -1,0 +1,14 @@
+Need to be a little more careful with terminology
+
+- technical nature of talk
+- provide links for tutorials
+- try to say WFAA more
+- define large donors
+	- not necessarily an industry benchmark...be very careful
+- said "recognition" a lot
+
+•	Using “the Foundation” and WFAA interchangeably (update 11:37: you actually almost always say “the foundation” but titles on slides say WFAA and I think per our branding you should make an effort to say WFAA)
+•	You saying that your title is data analyst but you are a data scientist and we do data science at WFAA makes me want to revisit the matter of our titles again (well, that and the salary review process – I have been, rightly or wrongly, worried that our title might be linked to jobs that aren’t comparable to what we do)
+•	“nothing even sniffs 80/20” I know what you mean, but that was awkward wording -- if it was just how it came out today, no worries, but if that’s planned wording I would change it. I would say maybe “we’re not even in swinging distance of 80/20” 
+•	Divisive vs. Agglomorative – emphasize that you move in different directions along those axes depending on which one you are doing, just make it a little clearer, took me too long to parse that visualization (which is a good one, really!)
+•	“Young whippersnappers are our youngest donors” – I think it’s important to emphasize that they are the youngest in this group, maybe reiterate their average age because IIRC they are not what I would think of as “young”, they are just younger than the rest of these large donors. Not a huge deal but I think, especially for an outside audience, the clarity of who we are talking about from the beginning can fade away
