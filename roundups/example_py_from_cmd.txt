@@ -1,0 +1,1 @@
+python -c "from create_base_md import create_md; create_md('day1/bringing_model_outputs_to_salesforce.md', 'The Last Mile - Bringing Model Outputs to Your Sales Force', 'Pylpiw & Quillin')"
