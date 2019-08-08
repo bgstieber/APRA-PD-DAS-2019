@@ -1055,78 +1055,64 @@ body .markdown-body
 .codehilite .vi{color:teal}
 .codehilite .il{color:#009999}
 .codehilite .gc{color:#999;background-color:#EAF2F5}
-</style><title>pairing_engagement_with_giving</title></head><body><article class="markdown-body"><h1 id="the-advancement-ecosystem-pairing-engagement-with-giving-teff-parman">The Advancement Ecosystem - Pairing Engagement with Giving - Teff &amp; Parman<a class="headerlink" href="#the-advancement-ecosystem-pairing-engagement-with-giving-teff-parman" title="Permanent link"></a></h1>
-<h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link"></a></h2>
+</style><title>key_takeaways</title></head><body><article class="markdown-body"><h1 id="key-takeaways-from-apra-pd-2019">Key Takeaways from APRA PD 2019<a class="headerlink" href="#key-takeaways-from-apra-pd-2019" title="Permanent link"></a></h1>
 <ul>
-<li>Engagement ecosystem<ul>
-<li>Affiliate (ticket buyer, parents, patients, traveler, events), major giver, volunteer, annual giver</li>
+<li>Send surveys to first time donors and long lapsed donors<ul>
+<li>Why did you give? What are you interested in? etc</li>
+<li>Can help in marketing messaging and communication strategies</li>
 </ul>
 </li>
-<li>Got ticket data for performing arts center, matched 13K in CRM<ul>
-<li>Could we get similar data from campus event sites?</li>
+<li>During the keynote, there was moment for a discussion about &ldquo;what do you wish your senior management knew about you and your work&rdquo;. Conversations lasted a long time, and covered a few common issues<ul>
+<li>Trust the data</li>
+<li>Data is only as good as information being put into the system</li>
+<li>Timing (how long it takes to produce an analytical product)</li>
+<li>Definition of requirements</li>
+<li>Relying on what we&rsquo;ve done in the past is not going to get us where we want to go next</li>
+<li><strong>My question is</strong>: why are these problems and why do they continue to be problems? I&rsquo;ve heard similar comments since starting at WFAA. Are analysts/researchers/data scientists helpless? What needs to be done to solve/move forward at least one of these issues? </li>
 </ul>
 </li>
-<li>Segment by score, action by cell (two axes: spending and # of tickets for a performing arts center)<ul>
-<li>After segmentation, refined further by sorting</li>
+<li>Using recommender systems to identify prospect interests<ul>
+<li>Extremely similar to fund recommendation engine, but took it one step deeper to generate recommendations for each donor<ul>
+<li>Would be pretty simple to spin one up</li>
 </ul>
 </li>
-<li>Used analytics for a direct mail effort for athletics<ul>
-<li>Recognition levels: $10K and $5K</li>
-<li>Segments: below $5K, $5K, and $10K</li>
-<li>Built a model to predict if a donor gave over $1K or $15K</li>
-<li>Good example of how they collaborated with stakeholders and used results from a predictive model to improve</li>
+<li>Could also apply recommendations to non-donors, by matching characteristics/demographics for donors</li>
+<li>Faced similar &ldquo;setbacks&rdquo; in deploying the results</li>
 </ul>
 </li>
-<li>Engaged: participate or become involved<ul>
-<li>An outward activity a constituent does<ul>
-<li>Attend event, buy a ticket, volunteering, mentoring students, etc.</li>
-<li>NOT a scholarship, award, honorary degree, athletic letter winner</li>
+<li>People are still using scorecard models, which <em>I guess</em> is better than nothing<ul>
+<li>Rather than weighting values arbitrarily, we could sum up 1/0 indicators for different engagement variables. Unless we can get stakeholders to agree on the target we&rsquo;re trying to predict</li>
 </ul>
 </li>
-<li>Four broad categories of engagement identified by CASE: volunteer, philanthropic, experiential, and communication (opening emails)</li>
+<li>Segment by score, action by cell<ul>
+<li>LSU uses three &ldquo;scores&rdquo; to define 8 different segments (they create two bins for each score)</li>
+<li>These segments have catchy names, qualitative descriptions, and strategy recommendations</li>
+<li>Every constituent receives a &ldquo;persona&rdquo;</li>
+<li>Devoted a lot of time and energy to deploying this analysis. They had roadshows to socialize the results and win over early champions</li>
 </ul>
 </li>
-<li>Engagement scorecard<ul>
-<li># of alums, donors, events, affiliates, engaged</li>
-<li>Found that about 51% of alumni are engaged (but trending downward)</li>
+<li>People treat deploying predictive models and having them used as a success story. It shouldn&rsquo;t be! These things work <strong>and</strong> we have data to back that up. Data scientists need to get better at understanding and explaining their work if they want to improve adoption.</li>
+<li>Hilary Parker keynote was really good<ul>
+<li>Data science is about systems engineering (data flows and its flow must be controlled through each part of the data science process)</li>
+<li>Blameless postmortems: don&rsquo;t blame the operator, blame the system. <ul>
+<li>Identify incident and record, research what others have done, and consider ROI (how much effort is improving/iterating on system worth?)</li>
 </ul>
 </li>
-<li>Identified and pulled engagement attributes from about 12 different categories<ul>
-<li>Then tried to look at recency and frequency for these engagement attributes (where possible)</li>
-</ul>
-</li>
-<li>Engagement score work resulted in a &ldquo;single value index measuring an individual&rsquo;s engagement with UI&rdquo;<ul>
-<li>Seems like another scorecard model</li>
-</ul>
-</li>
-<li>Engagement data may be &ldquo;hidden&rdquo; due to campus not sharing all its data. Need to collaborate with campus to identify and uncover these sources</li>
-<li>Created an engagement heatmap, one dot per county. size of dot correlated with number of alumni, color correlated with engagement score<ul>
-<li>Used to identify best locations for events across the country</li>
-</ul>
-</li>
-<li>Created an engagement radar chart, which explained the engagement score for a single constituent</li>
-<li>Built a &ldquo;local&rdquo; engagement score, based on academic units<ul>
-<li>Made a scatter plot of overall engagement score vs local engagement score</li>
-</ul>
-</li>
-<li>Went after social media, used EverTrue as a vendor<ul>
-<li>Went through an example of digging into the details for a very engaged household on facebook (most involved with athletics)</li>
+<li>Data collection is an underrated part of data science - can you take efforts to improve your data quality and/or collect more?</li>
+<li>Improving data science design abilities: consume and participate, purposeful practice, give your right brain space, cultivate empathy</li>
 </ul>
 </li>
 </ul>
-<h2 id="key-takeaways">Key Takeaways<a class="headerlink" href="#key-takeaways" title="Permanent link"></a></h2>
+<h2 id="things-to-try">Things to Try<a class="headerlink" href="#things-to-try" title="Permanent link"></a></h2>
 <ul>
-<li>Collaborated with stakeholders to build predictive models and use them<ul>
-<li>Seems like they had a good amount of runway to performt his analysis</li>
+<li>More intentional segment by score, action by cell analyses</li>
+<li>Improve understanding of organizational data science needs<ul>
+<li>Both demand side (what do people want?) and supply side (what can we provide?)</li>
 </ul>
 </li>
-<li>Still a little unclear on how they built the score, but they did consult a wide array of engagement variables, and took a very methodical approach</li>
-<li>Used conservative matching with social media data<ul>
-<li>Used social media data in a variety of ways<ul>
-<li>Annual giving, digital communication (social ambassadors), alumni engagement, events, prospect development (30 new prospects, 15 in qual, 1 ask made), tracking 15 <strong>campus</strong> facebook pages</li>
+<li>Reexamine fund recommendation engine and extend to constituent-level recommendations</li>
+<li>Investigate options of collecting more data across important areas<ul>
+<li>Philanthropic motivations and interests (lapsed/acquisition donor surveys)</li>
 </ul>
 </li>
-</ul>
-</li>
-</ul>
-<h2 id="other-details-follow-up">Other Details / Follow Up<a class="headerlink" href="#other-details-follow-up" title="Permanent link"></a></h2></article></body></html>
+</ul></article></body></html>

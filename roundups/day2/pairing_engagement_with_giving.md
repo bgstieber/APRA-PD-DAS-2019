@@ -19,7 +19,7 @@
         * NOT a scholarship, award, honorary degree, athletic letter winner
     + Four broad categories of engagement identified by CASE: volunteer, philanthropic, experiential, and communication (opening emails)
 - Engagement scorecard
-    + # of alums, donors, events, affiliates, engaged
+    + \# of alums, donors, events, affiliates, engaged
     + Found that about 51% of alumni are engaged (but trending downward)
 - Identified and pulled engagement attributes from about 12 different categories
     + Then tried to look at recency and frequency for these engagement attributes (where possible)
